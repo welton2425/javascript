@@ -6,10 +6,20 @@ var mensagem = ` Olá, meu nome é ${nome} e tenho ${idade} anos`;
 // criamos uma variavel chamada menssagem para exibir o texto contendo as duas variaveis que foram declarada 
 
 console.log(mensagem);
+
+
+
 // criamos o consolo.log para fazer a impressão da variavel "mensagem"
-
-
 var profissao = 'vigilante';
 var salario = '5.500';
 var retornoSalario = ` A profissão dele é ${profissao} e ele recebe ao mes ${salario} reais`;
 console.log(retornoSalario);
+
+//criem uma menssagem para informa a raça e a idade de um cachorro 
+
+var raca = 'pastor alemão';
+var idade = 15;
+
+var cachorro = `meu cachorro é da raça ${raca} ele tem ${idade} anos`;
+
+console.log(cachorro);
