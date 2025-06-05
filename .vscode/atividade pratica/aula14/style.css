@@ -33,5 +33,6 @@ button {
 }
 
 #addTask:hover {
-    background-color: rgb(9, 150, 243); /**/
+    background-color: rgb(9, 150, 243); /*coloque um azul mais pfvr*/
+    transition: 0.8s;
 }
