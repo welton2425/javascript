@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between ;
+    padding: 2rem 5rem;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: #111;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1rem ;
+
+}
+
+/*estilizando a section*/
+.swiper {
+    height: 35rem; /*altura da sessão*/
+    position: relative;/*posição relativa em relaçao a viewport(tela)*/
+}
+
+/*estilização das caixas (div) que guardam imagens*/
+.swiper-slide {/*aqui estamos chamando umas das caixas */
+    background-size: cover;
+    background-position: center;
+}
+
+.carosel-text {
+    position: absolute;/*posiciona o elemento de forma  absoluta dentro do container pai com position : relative*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*centraliza o elemento exatamente no meio do container()*/
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+}
+
+.carosel-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.carosel-text p {
+    font-size: 1.25rem;
+}
+
+.caixa-01 {
+    background-image: url(img/black-goku-ultra-instinct-landscape-vbghenzrzufs8n94.jpg);
+}
+
+.caixa-02{
+background-image: url(img/ca93195cb7adcf7659af04b7d97abd3f.jpeg);
+}
+
+.caixa-03 {
+background-image: url(img/dragon-ball-dragon-ball-super-son-goku-black-goku-wallpaper-preview.jpg);
+}
