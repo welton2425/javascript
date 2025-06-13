@@ -9,6 +9,7 @@
 header {
     display: flex;
     justify-content: space-between ;
+    align-items: center;
     padding: 2rem 5rem;
     color: #fff;
     position: sticky;
@@ -44,33 +45,35 @@ header a {
     background-position: center;
 }
 
-.carosel-text {
+.carousel-text {
     position: absolute;/*posiciona o elemento de forma  absoluta dentro do container pai com position : relative*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);/*centraliza o elemento exatamente no meio do container()*/
-    color: #fff;
+    color: #f9ffff;
     text-align: center;
     z-index: 10;
+    background-color: #11111144;
+    padding: 1.3rem;
 }
 
-.carosel-text h1 {
+.carousel-text h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.carosel-text p {
+.carousel-text p {
     font-size: 1.25rem;
 }
 
 .caixa-01 {
-    background-image: url(img/black-goku-ultra-instinct-landscape-vbghenzrzufs8n94.jpg);
+    background-image: url(img/Campos-do-Jordao-passeio-de-bondinho-6-dicas-para-turista.jpg);
 }
 
 .caixa-02{
-background-image: url(img/ca93195cb7adcf7659af04b7d97abd3f.jpeg);
+background-image: url(img/campos-do-jordao-um-pedaco-da-europa-em-sp-12.jpg);
 }
 
 .caixa-03 {
-background-image: url(img/dragon-ball-dragon-ball-super-son-goku-black-goku-wallpaper-preview.jpg);
+background-image: url(img/natal-campos-do-jordao-0.jpg);
 }
